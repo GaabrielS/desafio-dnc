@@ -2,7 +2,7 @@
 
 Projeto desenvolvido em HTML , CSS e Java Script com o objetivo de mostrar apenas uma landing page. Desafio concluído da escola DNC 
 
-Link hospedagem do site- 🔗 gabriel-desafio-landingpage.netlify.app
+Link hospedagem do site- 🔗 [gabriel-desafio-landingpage.netlify.app](https://64bb4ba15ffc1017cd6dc6a4--glittery-naiad-31c432.netlify.app/)
 
 Link da planilha do formulario - 🔗 https://docs.google.com/spreadsheets/d/1-r4eu2GVq5UixRbWm6SDDnjnChK2kxOwUOeA6HznGb0/edit?usp=sharing
 
