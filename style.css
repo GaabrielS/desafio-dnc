@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;600;800&family=Merriweather:ital,wght@1,300;1,400;1,700;1,900&family=Playfair+Display+SC&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'inter';
+  scroll-behavior: smooth;
+}
+/*SECAO_MENU*/
+.secao-menu {
+  background-color: #303030;
+  color: #ffffff;
+  height: 400px;
+}
+
+.secao-menu h1 {
+  margin-left: 150px;
+  padding-top: 150px;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.secao-menu p {
+  margin-left: 150px;
+  font-size: 20px;
+}
+
+/*SECAO_EMPREENDIMENTOS*/
+
+.secao-empreendimentos {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding: 50px;
+  font-size: 20px;
+  justify-content: center;
+  gap: 150px;
+  background-color: #f9f9f9;
+}
+
+.secao-empreendimentos strong {
+  font-size: 40px;
+}
+
+/*SECAO_HISTORIA*/
+
+#secao-historia {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 74px;
+}
+
+.titulo-texto {
+  padding-top: 200px;
+  font-size: 32px;
+  padding-bottom: 40px;
+  font-weight: 550;
+  padding-right: 20px;
+}
+
+.texto {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/*SECAO_SERVICOS*/
+
+.secao-servicos {
+  text-align: center;
+  background-color: #303030;
+}
+
+.titulo-servicos {
+  padding-top: 50px;
+  font-size: 32px;
+  margin: 25px;
+  color: #ffffff;
+}
+
+input {
+  width: 400px;
+  height: 52px;
+  margin: 15px;
+  border: none;
+  border-radius: 0.5rem;
+  padding-left: 15px;
+}
+
+button {
+  height: 52px;
+  padding: 10px 40px;
+  margin: 20px;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 200;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #c07212;
+  color: #ffffff;
+}
+
+button:hover {
+  transform: translateY(-7px);
+  transition: 0.5s;
+  background-color: #ed9c39;
+}
+
+#icon-topo {
+  max-height: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+#icon-topo:hover {
+  transform: translateY(-7px);
+  transition: 0.5s;
+}
